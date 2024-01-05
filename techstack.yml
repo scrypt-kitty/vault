@@ -1,11 +1,12 @@
 repo_name: scrypt-kitty/vault
 report_id: 8cb3657b3dcc96e1d8781c465ccd3f50
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-14T04:42:30+00:00'
+timestamp: '2024-01-05T08:46:10+00:00'
 requested_by: hellobontempo
 provider: github
 branch: main
-detected_tools_count: 98
+detected_tools_count: 99
 tools:
 - name: Golang
   description: An open source programming language that makes it easy to build simple,
@@ -17,6 +18,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/scrypt-kitty/vault
   detection_source: Repo Metadata
 - name: Handlebars.js
   description: Minimal Templating on Steroids
@@ -26,6 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Templating Languages & Extensions
   image_url: https://img.stackshare.io/service/1143/Handlebars.png
+  detection_source_url: https://github.com/scrypt-kitty/vault
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -36,6 +39,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/scrypt-kitty/vault
   detection_source: Repo Metadata
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
@@ -46,6 +50,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/scrypt-kitty/vault
   detection_source: Repo Metadata
 - name: Swift
   description: 'An innovative new programming language for Cocoa and Cocoa Touch. '
@@ -56,6 +61,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/scripts/docker/Dockerfile
   detection_source: scripts/docker/Dockerfile
   last_updated_by: Jason O'Donnell
   last_updated_on: 2020-07-20 18:11:34.000000000 Z
@@ -68,6 +74,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/scrypt-kitty/vault
   detection_source: Repo Metadata
 - name: Apache Thrift
   description: Software framework for scalable cross-language services development
@@ -78,6 +85,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Serialization Frameworks
   image_url: https://img.stackshare.io/service/2263/apache.png
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/go.mod
   detection_source: go.mod
   last_updated_by: hc-github-team-secure-vault-core
   last_updated_on: 2023-08-29 00:04:12.000000000 Z
@@ -89,7 +97,8 @@ tools:
   category: Libraries
   sub_category: JavaScript Framework Components
   image_url: https://img.stackshare.io/service/1801/ember-cli.png
-  detection_source: ui/package.json
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/lib/core/package.json
+  detection_source: ui/lib/core/package.json
   last_updated_by: Jordan Reimer
   last_updated_on: 2023-01-18 21:02:41.000000000 Z
 - name: Ember.js
@@ -101,7 +110,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Javascript MVC Frameworks
   image_url: https://img.stackshare.io/service/1018/3s1seyc0csl75btyw1vl.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Chelsea Shaw
   last_updated_on: 2023-11-02 17:55:09.000000000 Z
@@ -114,7 +123,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/5936/nextjs.png
-  detection_source_url: website/package-lock.json
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/website/package-lock.json
   detection_source: website/package.json
   last_updated_by: Jeff Escalante
   last_updated_on: 2020-01-18 00:18:09.000000000 Z
@@ -126,6 +135,7 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/6361/default_8c8faac34fdcb5b696503f5166b5232ad0adcf6e.png
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/package.json
   detection_source: ui/package.json
   last_updated_by: Chelsea Shaw
   last_updated_on: 2023-08-01 19:02:21.000000000 Z
@@ -137,7 +147,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Serialization Frameworks
   image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
-  detection_source: vault/hcp_link/proto/go.mod
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/go.mod
+  detection_source: go.mod
   last_updated_by: Dominik Baláž
   last_updated_on: 2023-11-06 21:55:46.000000000 Z
 - name: gRPC
@@ -149,7 +160,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Remote Procedure Call (RPC)
   image_url: https://img.stackshare.io/service/4670/default_d811b0ac72205af84aca21f967594338580be913.png
-  detection_source: vault/hcp_link/proto/go.mod
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/api/auth/gcp/go.mod
+  detection_source: api/auth/gcp/go.mod
   last_updated_by: VAL
   last_updated_on: 2021-11-12 17:32:05.000000000 Z
 - name: Azure Storage
@@ -160,6 +172,7 @@ tools:
   category: Data Stores
   sub_category: Cloud Storage
   image_url: https://img.stackshare.io/service/2099/azureStorage.png
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/go.mod
   detection_source: go.mod
   last_updated_by: hc-github-team-secure-vault-core
   last_updated_on: 2023-09-13 21:30:00.000000000 Z
@@ -173,6 +186,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1032/cassandra_small.png
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/plugins/database/cassandra/test-fixtures/no_tls/cassandra.yaml
   detection_source: plugins/database/cassandra/test-fixtures/no_tls/cassandra.yaml
   last_updated_by: Calvin Leung Huang
   last_updated_on: 2017-04-23 01:02:57.000000000 Z
@@ -184,6 +198,7 @@ tools:
   category: Data Stores
   sub_category: Cloud Storage
   image_url: https://img.stackshare.io/service/694/Cloud_Storage.png
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/go.mod
   detection_source: go.mod
   last_updated_by: Dominik Baláž
   last_updated_on: 2023-11-06 21:55:46.000000000 Z
@@ -195,7 +210,8 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
-  detection_source: plugins/database/mongodb/util.go
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/builtin/logical/database/rotation_test.go
+  detection_source: builtin/logical/database/rotation_test.go
   last_updated_by: John-Michael Faircloth
   last_updated_on: 2023-08-24 21:45:07.000000000 Z
 - name: MySQL
@@ -206,6 +222,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/go.mod
   detection_source: go.mod
   last_updated_by: Jeff Mitchell
   last_updated_on: 2019-04-13 07:44:06.000000000 Z
@@ -219,7 +236,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: JavaScript Compilers
   image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Chelsea Shaw
   last_updated_on: 2023-08-01 19:02:21.000000000 Z
@@ -233,8 +250,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Text Editor
   image_url: https://img.stackshare.io/service/2490/E_fCaAi6.png
-  detection_source_url: ui/yarn.lock
-  detection_source: ui/package.json
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
+  detection_source: ui/lib/core/package.json
   last_updated_by: Jordan Reimer
   last_updated_on: 2023-01-18 21:02:41.000000000 Z
 - name: Datadog
@@ -245,6 +262,7 @@ tools:
   category: Monitoring
   sub_category: Performance Monitoring
   image_url: https://img.stackshare.io/service/669/default_34b3b9b42d07c33ac47ecdff75dd6f4f82aa70ee.jpg
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/go.mod
   detection_source: go.mod
   last_updated_by: Nick Cabatoff
   last_updated_on: 2021-10-21 13:32:03.000000000 Z
@@ -257,6 +275,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/scrypt-kitty/vault
   detection_source: Repo Metadata
 - name: ESLint
   description: The fully pluggable JavaScript code quality tool
@@ -267,6 +286,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/package.json
   detection_source: ui/package.json
   last_updated_by: Matthew Irish
   last_updated_on: 2018-04-03 14:16:57.000000000 Z
@@ -278,6 +298,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/scrypt-kitty/vault
   detection_source: Repo Metadata
 - name: GitHub
   description: Powerful collaboration, review, and code management for open source
@@ -288,6 +309,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Collaboration & Version Control
   image_url: https://img.stackshare.io/service/27/default_869c34d29acc794d60ecdd5d2b5bfc042a80a4ec.jpg
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/go.mod
   detection_source: go.mod
   last_updated_by: Jeff Mitchell
   last_updated_on: 2019-04-13 07:44:06.000000000 Z
@@ -299,7 +321,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/verify_changes.yml"
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/.github/workflows/actionlint.yml
+  detection_source: ".github/workflows/actionlint.yml"
   last_updated_by: miagilepner
   last_updated_on: 2023-07-11 13:35:10.000000000 Z
 - name: GoTTY
@@ -311,6 +334,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: localhost Tools
   image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/go.mod
   detection_source: go.mod
   last_updated_by: Jeff Mitchell
   last_updated_on: 2019-04-13 07:44:06.000000000 Z
@@ -324,6 +348,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Container Tools
   image_url: https://img.stackshare.io/service/1885/21_d3cvM.png
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/go.mod
   detection_source: go.mod
   last_updated_by: hc-github-team-secure-vault-core
   last_updated_on: 2023-09-08 00:42:53.000000000 Z
@@ -336,7 +361,8 @@ tools:
   category: Monitoring
   sub_category: Performance Monitoring
   image_url: https://img.stackshare.io/service/10794/EpBd2Xrw_400x400.jpg
-  detection_source: sdk/go.mod
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/go.mod
+  detection_source: go.mod
   last_updated_by: Nick Cabatoff
   last_updated_on: 2023-04-24 18:25:50.000000000 Z
 - name: Prettier
@@ -349,8 +375,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
-  detection_source_url: ui/yarn.lock
-  detection_source: website/package.json
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
   last_updated_by: Chelsea Shaw
   last_updated_on: 2023-08-01 19:02:21.000000000 Z
 - name: Prometheus
@@ -363,6 +389,7 @@ tools:
   category: Monitoring
   sub_category: Monitoring Tools
   image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/go.mod
   detection_source: go.mod
   last_updated_by: Mike Palmiotto
   last_updated_on: 2023-10-17 21:35:30.000000000 Z
@@ -376,7 +403,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/1421/b706f022230831a3d391db504a139e21.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Matthew Irish
   last_updated_on: 2018-04-03 14:16:57.000000000 Z
@@ -390,7 +417,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/5446/V9JsvPul_400x400.jpg
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Chelsea Shaw
   last_updated_on: 2023-08-01 19:02:21.000000000 Z
@@ -404,6 +431,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Server Configuration and Automation
   image_url: https://img.stackshare.io/service/1276/default_2316907c4199f912e2ed79cbdb99025c9e5e2665.png
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/enos/modules/seal_key_awskms/main.tf
   detection_source: enos/modules/seal_key_awskms/main.tf
   last_updated_by: Ryan Cragun
   last_updated_on: 2023-10-26 21:13:30.000000000 Z
@@ -417,6 +445,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package_manager/49093/default_cdf079d244bded073d455911e6ce679abb1b77ab.png
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/enos/modules/seal_key_awskms/main.tf
   detection_source: enos/modules/seal_key_awskms/main.tf
   last_updated_by: Ryan Cragun
   last_updated_on: 2023-10-26 21:13:30.000000000 Z
@@ -430,7 +459,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Go Testing
   image_url: https://img.stackshare.io/service/8695/stretchr.png
-  detection_source: sdk/go.mod
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/go.mod
+  detection_source: go.mod
   last_updated_by: Raymond Ho
   last_updated_on: 2023-09-14 23:18:20.000000000 Z
 - name: Vault
@@ -443,7 +473,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Secrets Management
   image_url: https://img.stackshare.io/service/2905/vault.png
-  detection_source: scripts/docker/Dockerfile
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/Dockerfile
+  detection_source: Dockerfile
   last_updated_by: mickael-hc
   last_updated_on: 2023-09-21 16:36:58.000000000 Z
 - name: Webpack
@@ -456,7 +487,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Chelsea Shaw
   last_updated_on: 2023-08-01 19:02:21.000000000 Z
@@ -468,7 +499,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
-  detection_source: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/.yarnrc
+  detection_source: ui/.yarnrc
   last_updated_by: Matthew Irish
   last_updated_on: 2019-10-25 21:00:45.000000000 Z
 - name: highlight.js
@@ -479,6 +511,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Text Editor
   image_url: https://img.stackshare.io/service/6888/c17e7d9688d86bd9f9506ec1fbd6d200_400x400.png
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/package.json
   detection_source: ui/package.json
   last_updated_by: claire bontempo
   last_updated_on: 2023-10-06 22:06:36.000000000 Z
@@ -490,6 +523,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/package.json
   detection_source: ui/package.json
   last_updated_by: Matthew Irish
   last_updated_on: 2018-04-03 14:16:57.000000000 Z
@@ -502,6 +536,7 @@ tools:
   category: Application Hosting
   sub_category: Cloud Hosting
   image_url: https://img.stackshare.io/service/295/Onjxs6Lw_400x400.jpg
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/go.mod
   detection_source: go.mod
   last_updated_by: Nick Cabatoff
   last_updated_on: 2021-10-21 13:32:03.000000000 Z
@@ -514,6 +549,7 @@ tools:
   category: Analytics
   sub_category: Business Intelligence
   image_url: https://img.stackshare.io/service/11232/no-img-open-source.png
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/package.json
   detection_source: ui/package.json
   last_updated_by: Matthew Irish
   last_updated_on: 2018-04-03 14:16:57.000000000 Z
@@ -526,6 +562,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Operating Systems
   image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/Dockerfile
   detection_source: Dockerfile
   last_updated_by: mickael-hc
   last_updated_on: 2023-09-21 16:36:58.000000000 Z
@@ -537,6 +574,7 @@ tools:
   category: Libraries
   sub_category: CocoaPods Packages
   image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/scripts/docker/Dockerfile
   detection_source: scripts/docker/Dockerfile
   last_updated_by: Jason O'Donnell
   last_updated_on: 2020-07-20 18:11:34.000000000 Z
@@ -548,6 +586,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Operating Systems
   image_url: https://img.stackshare.io/service/1656/vd4gAekh.png
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/scripts/cross/Dockerfile
   detection_source: scripts/cross/Dockerfile
   last_updated_by: Jeff Mitchell
   last_updated_on: 2019-07-09 07:51:05.000000000 Z
@@ -561,6 +600,7 @@ tools:
   category: Application Utilities
   sub_category: API Tools
   image_url: https://img.stackshare.io/service/9792/L8C2-2bd_400x400.jpg
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/go.mod
   detection_source: go.mod
   last_updated_by: Jeff Mitchell
   last_updated_on: 2019-04-13 07:44:06.000000000 Z
@@ -573,6 +613,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/scrypt-kitty/vault
   detection_source: Repo Metadata
 - name: date-fns
   description: Modern JavaScript date utility library
@@ -583,7 +624,8 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/10865/default_5551fb8853689f607a2bc0d5a09355d5a3d52bf0.png
-  detection_source: ui/package.json
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/lib/core/package.json
+  detection_source: ui/lib/core/package.json
   last_updated_by: Angel Garbarino
   last_updated_on: 2020-06-18 21:52:43.000000000 Z
 - name: lint-staged
@@ -591,6 +633,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/package.json
   detection_source: ui/package.json
   last_updated_by: Chelsea Shaw
   last_updated_on: 2023-08-01 19:02:21.000000000 Z
@@ -604,7 +647,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16147/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Chelsea Shaw
   last_updated_on: 2023-11-02 17:55:09.000000000 Z
@@ -618,7 +661,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16001/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Chelsea Shaw
   last_updated_on: 2023-11-02 17:55:09.000000000 Z
@@ -632,7 +675,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16849/default_1b078765f7b7ae4ccce598a7251eb06451511e5e.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Chelsea Shaw
   last_updated_on: 2023-11-02 17:55:09.000000000 Z
@@ -646,7 +689,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Chelsea Shaw
   last_updated_on: 2023-08-01 19:02:21.000000000 Z
@@ -660,7 +703,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Chelsea Shaw
   last_updated_on: 2023-08-01 19:02:21.000000000 Z
@@ -674,8 +717,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18320/default_185a3d4e97cf62330a9efe7678914006c4eeb555.png
-  detection_source_url: ui/yarn.lock
-  detection_source: ui/package.json
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
+  detection_source: ui/lib/core/package.json
   last_updated_by: Matthew Irish
   last_updated_on: 2019-06-21 21:05:45.000000000 Z
 - name: base64-js
@@ -688,8 +731,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17396/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
-  detection_source_url: ui/yarn.lock
-  detection_source: ui/package.json
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
+  detection_source: ui/lib/core/package.json
   last_updated_by: Matthew Irish
   last_updated_on: 2019-05-13 19:05:25.000000000 Z
 - name: broccoli-asset-rev
@@ -702,7 +745,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16119/default_efe4f0184d007a28e793d89a59e058b742bc9177.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Angel Garbarino
   last_updated_on: 2020-12-03 23:00:22.000000000 Z
@@ -716,7 +759,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17942/default_cc042fd7c0a9cf091d301af307c99c8b7b08b8bc.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Matthew Irish
   last_updated_on: 2018-06-01 22:18:31.000000000 Z
@@ -730,7 +773,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16978/default_7a9e63a9526bf5da91e7a6f9f792b13e3543a875.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Noelle Daley
   last_updated_on: 2019-06-19 23:14:25.000000000 Z
@@ -744,7 +787,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17187/default_fbe883dfc6d978f82179fa11bdf634af1b6751fa.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Jordan Reimer
   last_updated_on: 2023-01-12 23:33:14.000000000 Z
@@ -758,7 +801,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16179/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Matthew Irish
   last_updated_on: 2019-08-19 20:45:39.000000000 Z
@@ -772,7 +815,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16760/default_c11d90814ded8fcd305b22fdc42b42a3111f1f6d.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: claire bontempo
   last_updated_on: 2022-06-15 21:50:44.000000000 Z
@@ -786,8 +829,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16116/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
-  detection_source_url: ui/yarn.lock
-  detection_source: ui/package.json
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
+  detection_source: ui/lib/core/package.json
   last_updated_by: Jordan Reimer
   last_updated_on: 2023-01-18 21:02:41.000000000 Z
 - name: ember-cli-content-security-policy
@@ -801,7 +844,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16425/default_d73092129e1cde5ea9f47f22e2d7c3db7bd6da8d.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Chelsea Shaw
   last_updated_on: 2023-11-02 17:55:09.000000000 Z
@@ -816,7 +859,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16121/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Chelsea Shaw
   last_updated_on: 2023-11-02 17:55:09.000000000 Z
@@ -830,8 +873,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16115/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
-  detection_source_url: ui/yarn.lock
-  detection_source: ui/package.json
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
+  detection_source: ui/lib/core/package.json
   last_updated_by: Jordan Reimer
   last_updated_on: 2023-01-18 21:02:41.000000000 Z
 - name: ember-cli-inject-live-reload
@@ -844,7 +887,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16117/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Chelsea Shaw
   last_updated_on: 2023-11-02 17:55:09.000000000 Z
@@ -858,7 +901,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17156/default_eb6674f470fe213f950fd09d858ebb0f6b6e3dda.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Chelsea Shaw
   last_updated_on: 2023-11-02 17:55:09.000000000 Z
@@ -872,7 +915,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16180/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Chelsea Shaw
   last_updated_on: 2023-11-02 17:55:09.000000000 Z
@@ -886,7 +929,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16222/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Chelsea Shaw
   last_updated_on: 2023-11-02 17:55:09.000000000 Z
@@ -900,7 +943,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16196/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Chelsea Shaw
   last_updated_on: 2023-11-02 17:55:09.000000000 Z
@@ -914,7 +957,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17016/default_8ef738cb63f629c8e87903029b82b45840ab75a3.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Chelsea Shaw
   last_updated_on: 2023-11-02 17:55:09.000000000 Z
@@ -928,7 +971,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16189/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Chelsea Shaw
   last_updated_on: 2023-11-02 17:55:09.000000000 Z
@@ -942,7 +985,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18356/default_2d54ed83bf3c0e61b6303a6cc77852a3fb1ae83a.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Chelsea Shaw
   last_updated_on: 2023-11-02 17:55:09.000000000 Z
@@ -956,8 +999,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16288/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
-  detection_source_url: ui/yarn.lock
-  detection_source: ui/package.json
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
+  detection_source: ui/lib/service-worker-authenticated-download/package.json
   last_updated_by: Matthew Irish
   last_updated_on: 2019-10-14 18:23:29.000000000 Z
 - name: ember-truth-helpers
@@ -970,8 +1013,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18267/default_7f9b12bbc55824c0dff067aa1286b7d2699852f9.png
-  detection_source_url: ui/yarn.lock
-  detection_source: ui/package.json
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
+  detection_source: ui/lib/core/package.json
   last_updated_by: Jordan Reimer
   last_updated_on: 2023-01-18 21:02:41.000000000 Z
 - name: escape-string-regexp
@@ -984,8 +1027,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16736/default_cc1793e454d6d035c188f0198b037d58f372e7f2.png
-  detection_source_url: ui/yarn.lock
-  detection_source: ui/package.json
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
+  detection_source: ui/lib/core/package.json
   last_updated_by: Jordan Reimer
   last_updated_on: 2021-12-07 17:05:14.000000000 Z
 - name: eslint-config-prettier
@@ -998,7 +1041,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Chelsea Shaw
   last_updated_on: 2023-08-01 19:02:21.000000000 Z
@@ -1012,7 +1055,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16743/default_848dc5bc612658cea8d631cff0259d9588c28fea.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Angel Garbarino
   last_updated_on: 2023-10-12 17:34:38.000000000 Z
@@ -1026,7 +1069,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16474/default_4e3259350c525d1d859fa80a938000081d7c9db8.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Chelsea Shaw
   last_updated_on: 2023-11-02 17:55:09.000000000 Z
@@ -1040,7 +1083,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Chelsea Shaw
   last_updated_on: 2023-08-01 19:02:21.000000000 Z
@@ -1055,7 +1098,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16611/default_5a21421012fa20e57fe0aeab31228f42e7118abc.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Chelsea Shaw
   last_updated_on: 2021-05-04 16:49:48.000000000 Z
@@ -1069,7 +1112,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17025/default_88e2e076a71afdc1de87ad42c80c1606f2689af1.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Angel Garbarino
   last_updated_on: 2023-10-25 17:06:06.000000000 Z
@@ -1084,7 +1127,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16013/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Chelsea Shaw
   last_updated_on: 2023-08-01 19:02:21.000000000 Z
@@ -1098,7 +1141,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18307/default_adee5b58cc2acb885faff4066ee6d7281131005f.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Jordan Reimer
   last_updated_on: 2021-12-07 17:05:14.000000000 Z
@@ -1112,7 +1155,21 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17358/default_66bbb2a75a0234b1bfceaa99b8e82825fa7b8284.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
+  detection_source: ui/package.json
+  last_updated_by: Chelsea Shaw
+  last_updated_on: 2023-08-01 19:02:21.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 10.5.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Chelsea Shaw
   last_updated_on: 2023-08-01 19:02:21.000000000 Z
@@ -1126,7 +1183,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16210/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Angel Garbarino
   last_updated_on: 2022-04-12 19:59:34.000000000 Z
@@ -1140,7 +1197,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16146/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Chelsea Shaw
   last_updated_on: 2023-08-01 19:02:21.000000000 Z
@@ -1154,7 +1211,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15926/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Chelsea Shaw
   last_updated_on: 2023-08-01 19:02:21.000000000 Z
@@ -1168,7 +1225,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16620/default_9012166d3e51cea5db6b4e69c80ace1c50b7509d.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Chelsea Shaw
   last_updated_on: 2023-08-01 19:02:21.000000000 Z
@@ -1182,7 +1239,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16779/default_661bbd7f9556b6c5c0b8be11cd13e1813fc5c977.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Chelsea Shaw
   last_updated_on: 2023-08-01 19:02:21.000000000 Z
@@ -1196,7 +1253,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16057/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Jordan Reimer
   last_updated_on: 2023-05-03 01:36:15.000000000 Z
@@ -1210,7 +1267,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17489/default_188fa5cbc974fa18aed5a9b1f0d7f2bfaf8f1648.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Angel Garbarino
   last_updated_on: 2023-10-25 17:06:06.000000000 Z
@@ -1231,7 +1288,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16266/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Chelsea Shaw
   last_updated_on: 2023-08-01 19:02:21.000000000 Z
@@ -1245,7 +1302,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Jordan Reimer
   last_updated_on: 2023-02-28 19:26:10.000000000 Z
@@ -1259,7 +1316,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17846/default_369b3bf3ef062123a581e4817f09cb0004de7ff6.png
-  detection_source_url: ui/yarn.lock
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/ui/yarn.lock
   detection_source: ui/package.json
   last_updated_by: Matthew Irish
   last_updated_on: 2019-08-19 20:45:39.000000000 Z
@@ -1272,6 +1329,7 @@ tools:
   category: Libraries
   sub_category: Go Modules Packages
   image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/scrypt-kitty/vault/blob/main/go.mod
   detection_source: go.mod
   last_updated_by: hc-github-team-secure-vault-core
   last_updated_on: 2023-09-07 19:03:28.000000000 Z
