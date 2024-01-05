@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 scrypt-kitty/vault is built on the following main stack:
+
 - [GitHub](https://github.com/) – Code Collaboration & Version Control
 - [DigitalOcean](https://www.digitalocean.com/) – Cloud Hosting
 - [Datadog](https://www.datadoghq.com/lpg/?utm_source=Advertisement&utm_medium=StackShare&utm_campaign=StackShare-Other) – Performance Monitoring
@@ -49,11 +50,13 @@ scrypt-kitty/vault is built on the following main stack:
 - [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 scrypt-kitty/vault is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/27/default_869c34d29acc794d60ecdd5d2b5bfc042a80a4ec.jpg' alt='GitHub'/> [GitHub](https://github.com/) – Code Collaboration & Version Control
 - <img width='25' height='25' src='https://img.stackshare.io/service/295/Onjxs6Lw_400x400.jpg' alt='DigitalOcean'/> [DigitalOcean](https://www.digitalocean.com/) – Cloud Hosting
 - <img width='25' height='25' src='https://img.stackshare.io/service/669/default_34b3b9b42d07c33ac47ecdff75dd6f4f82aa70ee.jpg' alt='Datadog'/> [Datadog](https://www.datadoghq.com/lpg/?utm_source=Advertisement&utm_medium=StackShare&utm_campaign=StackShare-Other) – Performance Monitoring
@@ -101,14 +104,15 @@ scrypt-kitty/vault is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [scrypt-kitty/vault](https://github.com/scrypt-kitty/vault)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|98<br/>Tools used|11/14/23 <br/>Report generated|
+|99<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -552,9 +556,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (48)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (49)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (47)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (48)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -595,6 +599,7 @@ Full tech stack [here](/techstack.md)
 |[handlebars](https://www.npmjs.com/handlebars)|v4.7.7|08/01/23|Chelsea Shaw |MIT|N/A|
 |[jsondiffpatch](https://www.npmjs.com/jsondiffpatch)|v0.4.1|12/07/21|Jordan Reimer |MIT|N/A|
 |[jsonlint](https://www.npmjs.com/jsonlint)|v1.6.3|08/01/23|Chelsea Shaw |MIT|N/A|
+|[lint-staged](https://www.npmjs.com/lint-staged)|v10.5.4|08/01/23|Chelsea Shaw |MIT|N/A|
 |[loader.js](https://www.npmjs.com/loader.js)|v4.7.0|04/12/22|Angel Garbarino |MIT|N/A|
 |[node-notifier](https://www.npmjs.com/node-notifier)|v8.0.2|08/01/23|Chelsea Shaw |MIT|N/A|
 |[npm-run-all](https://www.npmjs.com/npm-run-all)|v4.1.5|08/01/23|Chelsea Shaw |MIT|N/A|
@@ -616,4 +621,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
